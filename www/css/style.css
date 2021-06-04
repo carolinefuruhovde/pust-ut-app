@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@font-face {
+  font-family: "Hobeaux";
+  src: url("https://use.typekit.net/nkz4ccy.css");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hobeaux", sans-serif;
+  src: url("https://use.typekit.net/nkz4ccy.css");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hobeaux";
+  src: url("https://use.typekit.net/nkz4ccy.css");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Synthemesc";
+  src: url("https://use.typekit.net/nkz4ccy.css");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  background-image: url("images/Background.png");
+  background-color: bisque;
+  background-size: 1700px;
+  background-position: -100px -100px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: rgb(35, 48, 59);
+}
+
+.frame {
+  display: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.activities {
+  margin-top: -100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  color: rgb(35, 48, 59);
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-family: "Hobeaux";
+  font-weight: 500;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Hobeaux";
+  font-weight: 400;
+}
+
+.timer {
+  position: absolute;
+  margin-top: 220px;
+  padding: 10px 30px;
+  font-size: 30px;
+  font-family: "Hobeaux";
+  font-weight: 400;
+}
+
+.timer.paused {
+  color: white;
+  opacity: 80%;
+}
+
+/* images for popup */
+img {
+  margin-top: 110px;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+p {
+  max-width: 250px;
+  max-height: 80px;
+  font-size: 13px;
+  font-family: "Hobeaux";
+  font-weight: 300;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.Mediter {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Dans {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Musikk {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Sov {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Kos {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Drikk {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Spis {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Tren {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
+  position: absolute;
+  margin-top: 550px;
+  padding: 15px 30px;
+  float: none;
+  color: rgb(35, 48, 59);
+  background-color: rgb(255, 130, 35);
+  border-radius: 30px;
+  font-size: 10px;
+  font-family: "Hobeaux";
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 1px 4px 2px #b05200;
+}
+
+.button:hover {
+  box-shadow: 4px 4px 2px #b05200;
+  transition: 300ms ease;
+}
+
+a {
+  color: inherit;
+}
+
+.entrybutton {
+  position: absolute;
+  margin-top: 550px;
+  padding: 15px 30px;
+  float: none;
+  color: rgb(35, 48, 59);
+  background-color: rgb(255, 130, 35);
+  border-radius: 30px;
+  font-size: 10px;
+  font-family: "Hobeaux";
+  font-weight: 400;
+  cursor: pointer;
+  box-shadow: 1px 4px 2px #b05200;
+}
+.entrybutton:hover {
+  box-shadow: 4px 4px 2px #b05200;
+  transition: 300ms ease;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
