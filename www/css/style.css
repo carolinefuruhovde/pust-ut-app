@@ -38,11 +38,9 @@ html,
 body {
   margin: 0;
   padding: 0;
-}
-body {
   display: grid;
-  background-image: url("images/Background.png");
-  background-color: bisque;
+  background-image: url("images/Webbakgrunn.png");
+  background-color: rgb(255, 244, 215);
   background-size: 1700px;
   background-position: -100px -100px;
   background-repeat: no-repeat;
@@ -89,8 +87,10 @@ h3 {
 }
 
 .timer.paused {
-  color: white;
-  opacity: 80%;
+  position: absolute;
+  margin-top: 360px;
+  font-size: 20px;
+  opacity: 60%;
 }
 
 /* images for popup */
