@@ -52,8 +52,8 @@ function startCountdown() {
     startStopButton.textContent = "STOP";
 
     function countDown() {
-      minutes -= 5;
-      // seconds -= 1;
+      seconds -= 1;
+      minutes -= 0;
 
       if (seconds < 0) {
         seconds = 59;
